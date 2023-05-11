@@ -76,7 +76,7 @@ Correct Answer: A. An interception of information on an unsecure website
                 for ans in answers:
                     print(ans)
                     # print(correct_answer[16:].lstrip())
-                    if ans.__eq__(correct_answer[16:].lstrip()):
+                    if ans.__eq__(correct_answer):
                         print('correct')
                         is_correct = True
                     else:
@@ -165,7 +165,7 @@ Correct Answer: A. An interception of information on an unsecure website
         for ans in answers:
             print(ans)
             # print(correct_answer[16:].lstrip())
-            if ans.__eq__(correct_answer[16:].lstrip()):
+            if ans.__eq__(correct_answer):
                 print('correct')
                 is_correct = True
             else:
